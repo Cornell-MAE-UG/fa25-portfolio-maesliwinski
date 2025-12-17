@@ -94,7 +94,7 @@ permalink: /cv/
   <h1>Curriculum Vitae</h1>
 
   <p>
-    I am seeking full-time Mechanical Engineering and human-centered design roles
+    I am seeking full-time Mechanical Engineering and design roles
     starting in June 2026.
   </p>
 
@@ -116,3 +116,5 @@ permalink: /cv/
   </div>
 
 </div>
+
+<p>View my actual portfolio <a href="https://maesliwinski.com" target="_blank" rel="noopener noreferrer">here</a>.</p>
