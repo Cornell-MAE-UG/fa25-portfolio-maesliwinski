@@ -125,7 +125,7 @@ permalink: /projects/
 
   <h1>Projects</h1>
 
-  <!-- NEW: Wind-Turbine Blades project -->
+  <!-- Wind-Turbine Blades project -->
   <div class="pill-card pill-card--green">
     <h2>Small Wind-Turbine Blades Design</h2>
     <p class="pill-card-subtitle">
@@ -147,8 +147,30 @@ permalink: /projects/
     </a>
   </div>
 
-  <!-- Existing projects (Assistive Pen Holders) -->
+  <!-- MAE 4300 Ethical Analysis project -->
   <div class="pill-card pill-card--purple">
+    <h2>Ethical Analysis: Boeing 737 MAX Crisis</h2>
+    <p class="pill-card-subtitle">
+      MAE 4300 – Engineers and Society
+    </p>
+    <p>
+      Case-study essay analyzing the Boeing 737 MAX crisis as a modern
+      engineering ethics failure, focusing on how technical design choices,
+      organizational culture, and regulatory structures interacted to
+      compromise public safety.
+    </p>
+    <div class="tag-row">
+      <span class="tag-chip">Engineering Ethics</span>
+      <span class="tag-chip">Boeing 737 MAX</span>
+      <span class="tag-chip">Professional Responsibility</span>
+    </div>
+    <a class="project-link" href="{{ site.baseurl }}/projects/mae-4300-ethics/">
+      View project
+    </a>
+  </div>
+
+  <!-- Assistive Pen Holders -->
+  <div class="pill-card pill-card--blue">
     <h2>Assistive Pen Holders</h2>
     <p class="pill-card-subtitle">
       Adaptive writing tools for users with limited grip strength
@@ -164,7 +186,8 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="pill-card pill-card--blue">
+  <!-- Custom Wheelchair Table -->
+  <div class="pill-card pill-card--green">
     <h2>Custom Wheelchair Table</h2>
     <p class="pill-card-subtitle">
       Modular work surface for school and daily use
@@ -181,3 +204,4 @@ permalink: /projects/
   </div>
 
 </div>
+
