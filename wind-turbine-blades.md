@@ -219,7 +219,7 @@ permalink: /projects/wind-turbine-blades/
       geometry into a manufacturable 3D design ready for printing and
       wind-tunnel testing.
     </p>
-  </div>
+    </div>
 
 <p>View my actual portfolio <a href="https://maesliwinski.com" target="_blank" rel="noopener noreferrer">here</a>.</p>
-</div>
+
