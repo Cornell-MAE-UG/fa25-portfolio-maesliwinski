@@ -151,6 +151,23 @@ permalink: /projects/wind-turbine-blades/
       incorporated spanwise twist to maintain an optimal angle of attack along
       the blade length.
     </p>
+
+  </div>
+  <div class="image-block">
+    <img src="{{ site.baseurl }}/assets/images/bladedesign.png"
+         alt="Efficiency versus tip-speed ratio">
+    <div class="image-caption">
+      Blade Modeled in Fusion360
+    </div>
+  </div>
+
+  </div>
+  <div class="image-block">
+    <img src="{{ site.baseurl }}/assets/images/blades.png"
+         alt="Efficiency versus tip-speed ratio">
+    <div class="image-caption">
+      3D Printed blades in wind tunnel
+    </div>
   </div>
 
   <div class="pill-card pill-card--blue">
