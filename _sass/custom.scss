@@ -1,0 +1,410 @@
+/* ====== Mae custom portfolio styles ====== */
+
+/* Palette */
+:root {
+  --bg-offwhite: #fff6ed;
+  --accent-green: #d6dfcc;
+  --accent-purple: #babbdd;
+  --accent-blue: #a6cff5;
+  --accent-orange: #f2b48f;
+}
+
+body {
+  background-color: var(--bg-offwhite);
+  color: #000;
+}
+
+/* Headings / name use Agrandir if available */
+h1, h2, h3, .home-title {
+  font-family: "Agrandir", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+/* Hide the theme's built-in header (blue name + GitHub link) */
+.wrapper > *:first-child {
+  display: none;
+}
+
+
+.page-content {
+  margin-left: 0;
+}
+
+/* Main content width */
+.wrapper {
+  max-width: 900px;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ====== HOME / TITLE SCREEN ====== */
+
+.home-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.home-title {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  margin: 0;
+}
+
+.pill-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 580px;
+}
+
+.pill-link {
+  display: block;
+  padding: 1.1rem 1.8rem;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid transparent;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    background-color 0.12s ease, border-color 0.12s ease;
+}
+
+.pill-link--about {
+  background-color: var(--accent-green);
+}
+
+.pill-link--projects {
+  background-color: var(--accent-purple);
+}
+
+.pill-link--cv {
+  background-color: var(--accent-blue);
+}
+
+.pill-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ====== INNER PAGES (ABOUT / PROJECTS / CV) ====== */
+
+.page-shell {
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.back-link::before {
+  content: "←";
+  font-size: 1rem;
+}
+
+/* Big page title */
+.page-shell h1 {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
+/* Pill cards (about / projects / cv sections) */
+
+.pill-card {
+  border-radius: 32px;
+  padding: 1.4rem 1.8rem;
+  border: 2px solid transparent;
+  margin-bottom: 1.2rem;
+  background-color: #f7f2ec;
+}
+
+.pill-card--green {
+  background-color: #e5ecdd;
+  border-color: var(--accent-green);
+}
+
+.pill-card--purple {
+  background-color: #e8e5f2;
+  border-color: var(--accent-purple);
+}
+
+.pill-card--blue {
+  background-color: #e3f1ff;
+  border-color: var(--accent-blue);
+}
+
+/* Small label text inside cards */
+.pill-card-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+/* Tags / chips for projects */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.tag-chip {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 0.8rem;
+}
+
+/* CV download button */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.9rem;
+  border-radius: 999px;
+  background-color: var(--accent-green);
+  border: 2px solid var(--accent-green);
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+}
+
+.cv-button:hover {
+  background-color: var(--accent-orange);
+  border-color: var(--accent-orange);
+}
+
+.cv-button::before {
+  content: "↓";
+  font-size: 1rem;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .wrapper {
+    padding-inline: 1.2rem;
+  }
+
+  .home-shell {
+    justify-content: flex-start;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+}
+/* ===== Mae portfolio overrides ===== */
+
+/* Global background + text */
+body {
+  background-color: #fff6ed; /* cream */
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Hide the theme's built-in header (blue name + GitHub link) */
+.wrapper > *:first-child {
+  display: none;
+}
+
+
+/* Main wrapper centered */
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* ----- Landing page (home) ----- */
+
+.home-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  /* center horizontally */
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.home-title {
+  font-family: "Agrandir", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  margin: 0;
+}
+
+.pill-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 580px;
+}
+
+.pill-link {
+  display: block;
+  padding: 1.1rem 1.8rem;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid transparent;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    background-color 0.12s ease, border-color 0.12s ease;
+}
+
+.pill-link--about {
+  background-color: #d6dfcc; /* green */
+}
+
+.pill-link--projects {
+  background-color: #babbdd; /* purple */
+}
+
+.pill-link--cv {
+  background-color: #a6cff5; /* blue */
+}
+
+.pill-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ----- Inner pages (About / Projects / CV) ----- */
+
+.page-shell {
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.back-link::before {
+  content: "←";
+  font-size: 1rem;
+}
+
+/* Big page title */
+.page-shell h1 {
+  font-family: "Agrandir", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
+/* Rounded pill cards */
+.pill-card {
+  border-radius: 32px;
+  padding: 1.4rem 1.8rem;
+  border: 2px solid transparent;
+  margin-bottom: 1.2rem;
+  background-color: #f7f2ec;
+}
+
+.pill-card--green {
+  background-color: #e5ecdd;
+  border-color: #d6dfcc;
+}
+
+.pill-card--purple {
+  background-color: #e8e5f2;
+  border-color: #babbdd;
+}
+
+.pill-card--blue {
+  background-color: #e3f1ff;
+  border-color: #a6cff5;
+}
+
+/* Small subtitle text in cards */
+.pill-card-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+/* Tag chips for projects */
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.tag-chip {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 0.8rem;
+}
+
+/* CV download button */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.9rem;
+  border-radius: 999px;
+  background-color: #d6dfcc;
+  border: 2px solid #d6dfcc;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+}
+
+.cv-button:hover {
+  background-color: #f2b48f;
+  border-color: #f2b48f;
+}
+
+.cv-button::before {
+  content: "↓";
+  font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding-inline: 1.2rem;
+  }
+
+  .home-shell {
+    justify-content: flex-start;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+}
+.cv-frame-wrapper {
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.cv-frame-wrapper iframe {
+  border: none;
+  display: block;
+}
