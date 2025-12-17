@@ -96,104 +96,39 @@ permalink: /projects/mae-4300-ethics/
   <div class="pill-card pill-card--green">
     <h2>Overview of the Case</h2>
     <p>
-      The Boeing 737 MAX crisis is a modern example of a large-scale engineering
-      ethics failure. While the Maneuvering Characteristics Augmentation System
-      (MCAS) was the immediate technical cause, a holistic ethical analysis
-      shows a far more complex breakdown involving individual decision-making,
-      organizational culture, and regulatory structures at Boeing.
-    </p>
-    <p>
-      The tragedy was not caused by a single flawed component or one negligent
-      engineer, but by a systemic failure in how safety, accountability, and
-      professional responsibility were balanced against cost, schedule, and
-      competitive pressure.
+      The Boeing 737 MAX crisis is an example of a modern engineering ethics failure. The cause of this failure is Maneuvering Characteristics Augmentation System (MCAS) as the immediate technical cause. However, it is important that we take a holistic ethical analysis and overview into the situation to reveal a far more complex failure spanning individual decision-making, organizational culture, and regulatory structure at Boeing. The tragedy was not the result of a single flawed component or negligent engineer, but rather a systemic breakdown in how safety, accountability, and professional responsibility were balanced against cost, schedule, and competitive pressure.
     </p>
   </div>
 
   <div class="pill-card pill-card--purple">
     <h2>Technical Decisions and Ethical Obligations</h2>
     <p>
-      To compete with Airbus’s A320neo while keeping the 737 product line
-      attractive, Boeing introduced MCAS to compensate for altered flight
-      characteristics caused by larger engines. To avoid costly pilot
-      retraining, MCAS was implemented using input from a single angle-of-attack
-      sensor and without explicit pilot awareness.
+      At the center of the crisis was Boeing’s effort to compete with Airbus’s A320neo while preserving the competitive edge of the 737 product line. With innovation on a long timeline, airlines were threatening to sign contracts with Airbus as they had made moves to establish themselves as new and improved by saving on carbon emissions in their aircrafts. To avoid costly pilot retraining and maintain market dominance, Boeing introduced MCAS to compensate for altered flight characteristics resulting from larger engines. Although feasible, MCAS was designed with a single angle-of-attack sensor input and without explicit pilot awareness, creating a single point of failure in a safety-critical system. This decision directly conflicted with the foundational engineering obligation to hold public safety paramount, as outlined by the National Society of Professional Engineers (NSPE) code of ethics. While economic constraints are unavoidable in engineering practice, ethical standards require that safety margins never be compromised for financial expediency, particularly in systems where failure can result in loss of life. Tragically, there were two plane crashes related to MCAS in-flight failure which has lasting impacts on the reputation and trust airline customers and stakeholders place in Boeing.
     </p>
     <p>
-      This design created a single point of failure in a safety-critical
-      system and conflicted with engineers’ obligation to hold public safety
-      paramount, as emphasized in codes of ethics such as the NSPE. While
-      economic constraints are unavoidable in practice, ethical standards
-      require that safety margins never be compromised, especially where
-      failure can lead to loss of life.
+      Following the crashes, Boeing’s response further illustrated ethical shortcomings. Rather than immediately acknowledging system-level design flaws, early communications from the media emphasized pilot error and procedural misunderstandings.This approach prioritized corporate reputation and legal exposure over transparency and public trust. In safety-critical industries, ethical responsibility does not end at deployment. It extends to how organizations respond when failures occur. Truthful communication and decisive corrective action are essential not only to prevent recurrence but also to preserve confidence in engineering institutions.
     </p>
   </div>
 
   <div class="pill-card pill-card--blue">
     <h2>Organizational Culture and Regulatory Structure</h2>
     <p>
-      After the crashes, Boeing’s early communications tended to emphasize
-      pilot error and procedural misunderstandings rather than acknowledging
-      system-level design flaws. This response prioritized corporate reputation
-      and legal exposure over transparency and public trust.
-    </p>
-    <p>
-      Inside the company, engineers operated within a hierarchical structure
-      where raising safety concerns could threaten job security or professional
-      standing. Information silos limited system-level visibility, and
-      regulatory delegation by the FAA blurred lines of accountability. Meeting
-      minimum compliance standards came to feel “ethically sufficient”, even
-      when deeper risks remained.
+      The cause of failure was MCAS which is the software which exerted direct authority over aircraft pitch and thus flight stability. The decision to rely on limited redundancy and incomplete failure-mode analysis was not proper engineering practice. Technical competence in the aerospace industry demands higher-level thinking, robust validation, and transparent communication of risk. The failure of engineers to fully acknowledge software as a safety-critical component contributed significantly to the disaster. It is important, however, to recognize the practical constraints that shaped these outcomes. Boeing engineers operated within a hierarchical corporate structure where raising safety concerns could threaten job security or professional standing. Information silos limited system-level visibility, preventing individuals from fully understanding how their contributions interacted with others. Regulatory delegation by the FAA blurred lines of accountability, allowing engineers to assume that meeting minimum compliance standards was ethically sufficient. These constraints help explain how ethical ideals were compromised in practice, though they do not excuse the resulting failures.
     </p>
   </div>
 
-  <div class="pill-card pill-card--green">
-    <h2>Constraints on Engineers – and Their Limits</h2>
-    <p>
-      The case illustrates how practical constraints—schedule pressure, cost
-      targets, corporate hierarchies, and delegated regulation—can erode
-      ethical ideals in daily engineering practice. These constraints help
-      explain how poor choices were made, but they do not excuse the outcome.
-    </p>
-    <p>
-      Technical competence in aerospace requires robust validation, clear
-      failure-mode analysis, and explicit recognition that software like MCAS
-      can be safety-critical. Failing to treat it as such was a major
-      contributor to the disaster.
-    </p>
-  </div>
 
   <div class="pill-card pill-card--purple">
     <h2>Recommendations and Lessons for Engineers</h2>
     <p>
-      Preventing similar crises requires action at multiple levels:
-      engineers need training and support networks that empower ethical
-      decision-making under pressure; organizations must cultivate cultures
-      where raising safety concerns is rewarded rather than suppressed; and
-      regulators must limit over-delegation and strengthen certification
-      standards for safety-critical software.
-    </p>
-    <p>
-      Independent safety review mechanisms with real authority and international
-      coordination can help ensure that investments in safety are not treated as
-      competitive disadvantages.
+      Preventing similar crises requires action at multiple levels. Engineers must be equipped with training and professional support networks that empower ethical decision-making under pressure. Organizations must create cultures where safety concerns are rewarded rather than suppressed, supported by independent safety review mechanisms with real authority. At the systemic level, regulators must reduce over-delegation,companies must include third-party regulatory review, strengthen certification standards for safety-critical software, and promote international coordination to ensure that safety investments do not become competitive disadvantages.
     </p>
   </div>
 
   <div class="pill-card pill-card--blue">
     <h2>Conclusion</h2>
     <p>
-      The Boeing 737 MAX crisis shows that engineering ethics is not only about
-      individual morality; it is about the design of technical, organizational,
-      and regulatory systems. When cost, schedule, and competitiveness override
-      safety, the resulting failures threaten public trust in engineering and
-      infrastructure.
-    </p>
-    <p>
-      For practicing engineers, this case is a reminder that public safety is a
-      core professional obligation. Upholding that principle requires technical
-      expertise and also the courage to challenge systems that do not prioritize
-      safety.
+      Ultimately, the Boeing 737 MAX crisis demonstrates that engineering ethics is not merely a matter of individual morality but of system design, organizational, regulatory, and technical alike. When cost, schedule, and competitiveness are allowed to override safety, the consequences severely impact the public's sense of trust and safety in our infrastructure. For engineers, this case serves as an important reminder that public safety is a core objective of Engineers as a professional career. Upholding that principle requires not only technical expertise, but also the courage to challenge systems that do not prioritize safety. 
     </p>
   </div>
 
