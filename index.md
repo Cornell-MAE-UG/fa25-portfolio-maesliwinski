@@ -130,7 +130,7 @@ title: Mae Sliwinski – Portfolio
   <p class="home-portfolio-link">
     <strong>
       View my actual portfolio
-      <a href="https://maesliwinski.github.io" target="_blank" rel="noopener noreferrer">
+      <a href="https://maesliwinski.com" target="_blank" rel="noopener noreferrer">
         here
       </a>.
     </strong>
