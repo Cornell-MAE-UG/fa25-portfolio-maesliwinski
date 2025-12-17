@@ -42,20 +42,27 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="pill-card pill-card--blue">
-    <h2>Soft Robotics Concept</h2>
+
+  <!-- MAE 4300 Ethical Analysis project -->
+  <div class="pill-card pill-card--orange">
+    <h2>Ethical Analysis: Boeing 737 MAX Crisis</h2>
     <p class="pill-card-subtitle">
-      Exploratory design for a soft reflex robot with local intelligence
+      MAE 4300 – Engineers and Society
     </p>
     <p>
-      Early-stage concept work on a soft robotic system capable of responsive,
-      embodied interaction using distributed sensing and actuation.
+      Case-study essay analyzing the Boeing 737 MAX crisis as a modern
+      engineering ethics failure, focusing on how technical design choices,
+      organizational culture, and regulatory structures interacted to
+      compromise public safety.
     </p>
     <div class="tag-row">
-      <span class="tag-chip">Soft Robotics</span>
-      <span class="tag-chip">Concept Development</span>
-      <span class="tag-chip">Experimental</span>
+      <span class="tag-chip">Engineering Ethics</span>
+      <span class="tag-chip">Boeing 737 MAX</span>
+      <span class="tag-chip">Professional Responsibility</span>
     </div>
+    <a class="project-link" href="{{ site.baseurl }}/projects/mae-4300-ethics/">
+      View project
+    </a>
   </div>
 
-</div>
+<p>View my actual portfolio <a href="https://maesliwinski.com" target="_blank" rel="noopener noreferrer">here</a>.</p>
