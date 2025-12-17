@@ -68,6 +68,11 @@ permalink: /projects/
     border-color: #babbdd;
   }
 
+  .pill-card--blue {
+    background-color: #e3f1ff;
+    border-color: #a6cff5;
+  }
+
   .pill-card-subtitle {
     font-size: 0.9rem;
     margin-bottom: 0.4rem;
@@ -88,6 +93,30 @@ permalink: /projects/
     border: 1px solid rgba(0, 0, 0, 0.06);
     font-size: 0.8rem;
   }
+
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #333;
+    padding: 0.45rem 1.0rem;
+    border-radius: 999px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .project-link::after {
+    content: "→";
+    margin-left: 0.35rem;
+    font-size: 0.9rem;
+  }
+
+  .project-link:hover {
+    background-color: #f2b48f33;
+    border-color: #f2b48f;
+  }
 </style>
 
 <div class="page-shell">
@@ -96,7 +125,30 @@ permalink: /projects/
 
   <h1>Projects</h1>
 
+  <!-- NEW: Wind-Turbine Blades project -->
   <div class="pill-card pill-card--green">
+    <h2>Small Wind-Turbine Blades Design</h2>
+    <p class="pill-card-subtitle">
+      MAE 4272 – Fluids and Heat Transfer Laboratory
+    </p>
+    <p>
+      Designed and tested small-scale wind-turbine blades to maximize power
+      production at a target angular velocity, using blade element methods,
+      airfoil polars, and wind-tunnel experiments with a magnetic particle brake.
+    </p>
+    <div class="tag-row">
+      <span class="tag-chip">Wind Energy</span>
+      <span class="tag-chip">Blade Element Method</span>
+      <span class="tag-chip">MATLAB</span>
+      <span class="tag-chip">Fusion 360</span>
+    </div>
+    <a class="project-link" href="{{ site.baseurl }}/projects/wind-turbine-blades/">
+      View project
+    </a>
+  </div>
+
+  <!-- Existing projects (Assistive Pen Holders) -->
+  <div class="pill-card pill-card--purple">
     <h2>Assistive Pen Holders</h2>
     <p class="pill-card-subtitle">
       Adaptive writing tools for users with limited grip strength
@@ -112,7 +164,7 @@ permalink: /projects/
     </div>
   </div>
 
-  <div class="pill-card pill-card--purple">
+  <div class="pill-card pill-card--blue">
     <h2>Custom Wheelchair Table</h2>
     <p class="pill-card-subtitle">
       Modular work surface for school and daily use
