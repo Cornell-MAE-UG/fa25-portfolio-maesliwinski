@@ -116,4 +116,8 @@ title: Mae Sliwinski – Portfolio
   </div>
 </div>
 
-<p>View my actual portfolio <a href="https://maesliwinski.com" target="_blank" rel="noopener noreferrer">here</a>.</p>
+  <div class="home-footer">
+    View my actual portfolio
+    <a href="https://maesliwinski.github.io" target="_blank" rel="noopener noreferrer">here</a>.
+  </div>
+</div>
