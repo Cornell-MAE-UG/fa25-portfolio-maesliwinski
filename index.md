@@ -96,6 +96,17 @@ title: Mae Sliwinski – Portfolio
       padding-bottom: 3rem;
     }
   }
+
+  .home-portfolio-link {
+  margin-top: 1.75rem;      /* space under the blue pill */
+  text-align: center;
+  font-size: 1rem;
+}
+
+.home-portfolio-link a {
+  text-decoration: underline;
+}
+
 </style>
 
 <div class="home-shell">
@@ -114,10 +125,15 @@ title: Mae Sliwinski – Portfolio
       CV
     </a>
   </div>
+
+  <!-- NEW centered bold link directly under the blue pill -->
+  <p class="home-portfolio-link">
+    <strong>
+      View my actual portfolio
+      <a href="https://maesliwinski.github.io" target="_blank" rel="noopener noreferrer">
+        here
+      </a>.
+    </strong>
+  </p>
 </div>
 
-  <div class="home-footer">
-    View my actual portfolio
-    <a href="https://maesliwinski.github.io" target="_blank" rel="noopener noreferrer">here</a>.
-  </div>
-</div>
